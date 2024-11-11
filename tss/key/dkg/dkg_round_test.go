@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/okx/threshold-lib/tss"
+	"github.com/lanlin/threshold-lib/tss"
 )
 
 func TestKeyGen(t *testing.T) {

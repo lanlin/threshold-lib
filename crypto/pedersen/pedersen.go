@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"runtime"
 
-	"github.com/okx/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto"
 )
 
 const (

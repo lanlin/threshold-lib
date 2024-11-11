@@ -3,7 +3,7 @@ package zkp
 import (
 	"math/big"
 
-	"github.com/okx/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto"
 )
 
 // Zero-knowledge proof of knowledge of the discrete logarithm over safe prime product

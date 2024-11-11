@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/okx/threshold-lib/crypto/commitment"
-	"github.com/okx/threshold-lib/crypto/vss"
-	"github.com/okx/threshold-lib/tss"
+	"github.com/lanlin/threshold-lib/crypto/commitment"
+	"github.com/lanlin/threshold-lib/crypto/vss"
+	"github.com/lanlin/threshold-lib/tss"
 )
 
 // DKGStep1

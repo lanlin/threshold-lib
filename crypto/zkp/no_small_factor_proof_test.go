@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/okx/threshold-lib/crypto/pedersen"
+	"github.com/lanlin/threshold-lib/crypto/pedersen"
 	"github.com/stretchr/testify/require"
 )
 

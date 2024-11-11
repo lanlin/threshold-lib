@@ -3,8 +3,8 @@ package zkp
 import (
 	"math/big"
 
-	"github.com/okx/threshold-lib/crypto"
-	"github.com/okx/threshold-lib/crypto/pedersen"
+	"github.com/lanlin/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto/pedersen"
 )
 
 type (

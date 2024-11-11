@@ -3,8 +3,8 @@ package keygen
 import (
 	"fmt"
 	"github.com/decred/dcrd/dcrec/edwards/v2"
-	"github.com/okx/threshold-lib/tss"
-	"github.com/okx/threshold-lib/tss/key/dkg"
+	"github.com/lanlin/threshold-lib/tss"
+	"github.com/lanlin/threshold-lib/tss/key/dkg"
 	"testing"
 )
 

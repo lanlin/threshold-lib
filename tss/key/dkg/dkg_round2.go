@@ -3,10 +3,10 @@ package dkg
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/okx/threshold-lib/crypto/commitment"
-	"github.com/okx/threshold-lib/crypto/curves"
-	"github.com/okx/threshold-lib/crypto/schnorr"
-	"github.com/okx/threshold-lib/tss"
+	"github.com/lanlin/threshold-lib/crypto/commitment"
+	"github.com/lanlin/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/crypto/schnorr"
+	"github.com/lanlin/threshold-lib/tss"
 )
 
 // DKGStep2 receive first step message and execute second step

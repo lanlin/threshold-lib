@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/okx/threshold-lib/crypto"
-	"github.com/okx/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto/curves"
 )
 
 func TestProof(t *testing.T) {

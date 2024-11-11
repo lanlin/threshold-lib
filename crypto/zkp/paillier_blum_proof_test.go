@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/okx/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto"
 	"github.com/stretchr/testify/require"
 )
 

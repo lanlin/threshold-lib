@@ -7,13 +7,13 @@ import (
 	"math/big"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/okx/threshold-lib/crypto"
-	"github.com/okx/threshold-lib/crypto/commitment"
-	"github.com/okx/threshold-lib/crypto/curves"
-	"github.com/okx/threshold-lib/crypto/paillier"
-	"github.com/okx/threshold-lib/crypto/pedersen"
-	"github.com/okx/threshold-lib/crypto/schnorr"
-	"github.com/okx/threshold-lib/crypto/zkp"
+	"github.com/lanlin/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto/commitment"
+	"github.com/lanlin/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/crypto/paillier"
+	"github.com/lanlin/threshold-lib/crypto/pedersen"
+	"github.com/lanlin/threshold-lib/crypto/schnorr"
+	"github.com/lanlin/threshold-lib/crypto/zkp"
 )
 
 var (

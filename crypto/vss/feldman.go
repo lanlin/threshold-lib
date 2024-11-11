@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/okx/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/crypto/curves"
 )
 
-//  verifiable secret sharing scheme
+// verifiable secret sharing scheme
 type Feldman struct {
 	threshold int // power of polynomial add one
 	limit     int //

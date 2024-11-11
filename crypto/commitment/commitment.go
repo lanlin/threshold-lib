@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"math/big"
 
-	"github.com/okx/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto"
 )
 
 type (

@@ -3,10 +3,10 @@ package sign
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/okx/threshold-lib/crypto"
-	"github.com/okx/threshold-lib/crypto/commitment"
-	"github.com/okx/threshold-lib/crypto/curves"
-	"github.com/okx/threshold-lib/tss"
+	"github.com/lanlin/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto/commitment"
+	"github.com/lanlin/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/tss"
 )
 
 type Step1Data struct {

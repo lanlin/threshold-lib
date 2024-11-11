@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/okx/threshold-lib/crypto/curves"
-	"github.com/okx/threshold-lib/crypto/paillier"
-	"github.com/okx/threshold-lib/tss"
-	"github.com/okx/threshold-lib/tss/key/bip32"
-	"github.com/okx/threshold-lib/tss/key/dkg"
+	"github.com/lanlin/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/crypto/paillier"
+	"github.com/lanlin/threshold-lib/tss"
+	"github.com/lanlin/threshold-lib/tss/key/bip32"
+	"github.com/lanlin/threshold-lib/tss/key/dkg"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/okx/threshold-lib/crypto"
-	"github.com/okx/threshold-lib/crypto/curves"
-	"github.com/okx/threshold-lib/crypto/pedersen"
+	"github.com/lanlin/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/crypto/pedersen"
 )
 
 func TestAffGProof(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"math/big"
 
 	"github.com/decred/dcrd/dcrec/edwards/v2"
-	"github.com/okx/threshold-lib/crypto/commitment"
-	"github.com/okx/threshold-lib/crypto/vss"
+	"github.com/lanlin/threshold-lib/crypto/commitment"
+	"github.com/lanlin/threshold-lib/crypto/vss"
 )
 
 var (

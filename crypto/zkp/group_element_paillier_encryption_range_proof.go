@@ -3,10 +3,10 @@ package zkp
 import (
 	"math/big"
 
-	"github.com/okx/threshold-lib/crypto"
-	"github.com/okx/threshold-lib/crypto/curves"
-	"github.com/okx/threshold-lib/crypto/paillier"
-	"github.com/okx/threshold-lib/crypto/pedersen"
+	"github.com/lanlin/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/crypto/paillier"
+	"github.com/lanlin/threshold-lib/crypto/pedersen"
 )
 
 // / Implementation of C.2 Group Element vs Paillier Encryption in Range ZK of https://eprint.iacr.org/2021/060.pdf

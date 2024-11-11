@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/okx/threshold-lib/crypto/commitment"
-	"github.com/okx/threshold-lib/crypto/curves"
-	"github.com/okx/threshold-lib/crypto/schnorr"
-	"github.com/okx/threshold-lib/crypto/vss"
-	"github.com/okx/threshold-lib/tss"
-	"github.com/okx/threshold-lib/tss/key/dkg"
+	"github.com/lanlin/threshold-lib/crypto/commitment"
+	"github.com/lanlin/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/crypto/schnorr"
+	"github.com/lanlin/threshold-lib/crypto/vss"
+	"github.com/lanlin/threshold-lib/tss"
+	"github.com/lanlin/threshold-lib/tss/key/dkg"
 )
 
 // DKGStep3 return new key share information except chaincode

@@ -4,8 +4,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/okx/threshold-lib/tss"
-	"github.com/okx/threshold-lib/tss/key/dkg"
+	"github.com/lanlin/threshold-lib/tss"
+	"github.com/lanlin/threshold-lib/tss/key/dkg"
 	"testing"
 )
 

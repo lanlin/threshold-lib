@@ -8,7 +8,7 @@ import (
 
 	"github.com/decred/dcrd/dcrec/edwards/v2"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/okx/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto"
 )
 
 func TestCurve(t *testing.T) {

@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/okx/threshold-lib/crypto/curves"
-	"github.com/okx/threshold-lib/crypto/paillier"
-	"github.com/okx/threshold-lib/crypto/pedersen"
-	"github.com/okx/threshold-lib/crypto/schnorr"
-	"github.com/okx/threshold-lib/crypto/vss"
-	"github.com/okx/threshold-lib/crypto/zkp"
-	"github.com/okx/threshold-lib/tss"
+	"github.com/lanlin/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/crypto/paillier"
+	"github.com/lanlin/threshold-lib/crypto/pedersen"
+	"github.com/lanlin/threshold-lib/crypto/schnorr"
+	"github.com/lanlin/threshold-lib/crypto/vss"
+	"github.com/lanlin/threshold-lib/crypto/zkp"
+	"github.com/lanlin/threshold-lib/tss"
 )
 
 type P2SaveData struct {

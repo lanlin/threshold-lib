@@ -1,4 +1,4 @@
-module github.com/okx/threshold-lib
+module github.com/lanlin/threshold-lib
 
 go 1.23.2
 

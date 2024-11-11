@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/okx/threshold-lib/crypto"
-	"github.com/okx/threshold-lib/crypto/curves"
+	"github.com/lanlin/threshold-lib/crypto"
+	"github.com/lanlin/threshold-lib/crypto/curves"
 )
 
 type Proof struct {
