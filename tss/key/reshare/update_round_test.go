@@ -3,7 +3,7 @@ package reshare
 import (
 	"crypto/elliptic"
 	"fmt"
-	"github.com/decred/dcrd/dcrec/secp256k1/v2"
+	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 	"github.com/okx/threshold-lib/tss"
 	"github.com/okx/threshold-lib/tss/key/dkg"
 	"testing"

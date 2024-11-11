@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/decred/dcrd/dcrec/secp256k1/v2"
+	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 	"github.com/okx/threshold-lib/crypto"
 	"github.com/okx/threshold-lib/crypto/commitment"
 	"github.com/okx/threshold-lib/crypto/curves"

@@ -5,6 +5,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
+	"time"
 
 	"github.com/okx/threshold-lib/crypto/curves"
 	"github.com/okx/threshold-lib/crypto/paillier"
@@ -31,6 +32,8 @@ func TestEcdsaSign(t *testing.T) {
 		Params: p1PreParamsAndProof.Params,
 		Proof:  p1PreParamsAndProof.Proof,
 	}
+
+	timeA := time.Now().Unix()
 
 	p1Dto, E_x1, _ := keygen.P1(p1Data.ShareI, paiPrivate, p1Data.Id, p2Data.Id, p1PreParamsAndProof, p2PreParamsAndProof.PedersonParameters(), p2PreParamsAndProof.Proof)
 	publicKey, _ := curves.NewECPoint(curve, p2Data.PublicKey.X, p2Data.PublicKey.Y)
@@ -64,6 +67,9 @@ func TestEcdsaSign(t *testing.T) {
 	r, s, err := p1.Step3(E_k2_h_xr, affine_proof)
 	require.NoError(t, err)
 	fmt.Println(r, s)
+
+	timeB := time.Now().Unix() - timeA
+	fmt.Printf("time: %d seconds\n", timeB)
 }
 
 func KeyGen() (*tss.KeyStep3Data, *tss.KeyStep3Data, *tss.KeyStep3Data) {

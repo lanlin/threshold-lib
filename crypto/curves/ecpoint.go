@@ -8,7 +8,7 @@ import (
 	"math/big"
 
 	"github.com/decred/dcrd/dcrec/edwards/v2"
-	"github.com/decred/dcrd/dcrec/secp256k1/v2"
+	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 )
 
 type ECPoint struct {
@@ -104,7 +104,11 @@ func (p *ECPoint) UnmarshalJSON(payload []byte) error {
 }
 
 func (p *ECPoint) PointToEcdsaPubKey() string {
-	publicKey := secp256k1.PublicKey{Curve: p.Curve, X: p.X, Y: p.Y}
+	xField := new(secp256k1.FieldVal)
+	yField := new(secp256k1.FieldVal)
+	xField.SetByteSlice(p.X.Bytes())
+	yField.SetByteSlice(p.Y.Bytes())
+	publicKey := secp256k1.NewPublicKey(xField, yField)
 	return hex.EncodeToString(publicKey.SerializeCompressed())
 }
 
@@ -123,9 +127,9 @@ func EcdsaPubKeyToPoint(pubkeyStr string) (*ECPoint, error) {
 		return &ECPoint{}, err
 	}
 	return &ECPoint{
-		X:     publicKey.X,
-		Y:     publicKey.Y,
-		Curve: publicKey.Curve,
+		X:     publicKey.X(),
+		Y:     publicKey.Y(),
+		Curve: secp256k1.S256(),
 	}, nil
 }
 

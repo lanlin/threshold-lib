@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/decred/dcrd/dcrec/edwards/v2"
-	"github.com/decred/dcrd/dcrec/secp256k1/v2"
+	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 )
 
 const (
